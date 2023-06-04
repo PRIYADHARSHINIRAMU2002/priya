@@ -1,0 +1,19 @@
+<html>
+<head>
+<style>
+.error{
+color: #D8000C;
+background-color: #FFBABA;
+}
+</style>
+</head>
+<body>
+<form name="myForm" onsubmit="return validateForm()">
+<p>Name: <input type="text" name="name" class="field-long"/> <span class="error" id="errorname"></span></p>
+<p>Email: <input type="text" name="email" class="field-long"/> <span class="error" id="erroremail"></span></p>
+<p>Website: <input type="text" name="web" class="field-long"/> <span class="error" id="errorweb"></span></p>
+<p>Message: <textarea name="msg"></textarea> <span class="error" id="errormsg"></span></p>
+<p><input type="submit" value="Submit"></p>
+</form>
+</body>
+</html>

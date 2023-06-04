@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript  demo 2</title>
+    </head>
+    <body>
+        <button onclick="date()">Show Date</button></br></br>
+        <button onclick="time()">Show Time</button>
+       
+        <script>
+            function time()
+            {
+                const d=new Date();
+                document.write(d);
+            }
+            function date()
+            {
+                const d= new Date();
+                var dateformat=d.getDate() + "/"+ d.getMonth() + "/"+ d.getFullYear();
+                document.write(dateformat);
+            }
+        </script>
+    </body>
+</html>
